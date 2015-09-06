@@ -186,5 +186,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/htc/m8-common/releasetools
 # Hardware
 BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
 
+# LZMA
+WITH_LZMA_OTA := true
+
 # Inherit from the proprietary version
 -include vendor/htc/m8-common/BoardConfigVendor.mk
